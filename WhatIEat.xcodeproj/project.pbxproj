@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D6D064172B4FD0FA00DB7820 /* What_I_Eat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = What_I_Eat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6D064172B4FD0FA00DB7820 /* WhatIEat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatIEat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6D0641A2B4FD0FA00DB7820 /* WhatIEat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatIEat.swift; sourceTree = "<group>"; };
 		D6D0641E2B4FD0FB00DB7820 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6D064212B4FD0FB00DB7820 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -37,7 +37,7 @@
 		D6D0640E2B4FD0FA00DB7820 = {
 			isa = PBXGroup;
 			children = (
-				D6D064192B4FD0FA00DB7820 /* What_I_Eat */,
+				D6D064192B4FD0FA00DB7820 /* WhatIEat */,
 				D6D064182B4FD0FA00DB7820 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,12 +45,12 @@
 		D6D064182B4FD0FA00DB7820 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D6D064172B4FD0FA00DB7820 /* What_I_Eat.app */,
+				D6D064172B4FD0FA00DB7820 /* WhatIEat.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D6D064192B4FD0FA00DB7820 /* What_I_Eat */ = {
+		D6D064192B4FD0FA00DB7820 /* WhatIEat */ = {
 			isa = PBXGroup;
 			children = (
 				D6D064282B4FD15700DB7820 /* View */,
@@ -58,7 +58,7 @@
 				D6D0641E2B4FD0FB00DB7820 /* Assets.xcassets */,
 				D6D064202B4FD0FB00DB7820 /* Preview Content */,
 			);
-			path = What_I_Eat;
+			path = WhatIEat;
 			sourceTree = "<group>";
 		};
 		D6D064202B4FD0FB00DB7820 /* Preview Content */ = {
@@ -81,9 +81,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D6D064162B4FD0FA00DB7820 /* What_I_Eat */ = {
+		D6D064162B4FD0FA00DB7820 /* WhatIEat */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D6D064252B4FD0FB00DB7820 /* Build configuration list for PBXNativeTarget "What_I_Eat" */;
+			buildConfigurationList = D6D064252B4FD0FB00DB7820 /* Build configuration list for PBXNativeTarget "WhatIEat" */;
 			buildPhases = (
 				D6D064132B4FD0FA00DB7820 /* Sources */,
 				D6D064142B4FD0FA00DB7820 /* Frameworks */,
@@ -93,9 +93,9 @@
 			);
 			dependencies = (
 			);
-			name = What_I_Eat;
+			name = WhatIEat;
 			productName = myFinalSubject;
-			productReference = D6D064172B4FD0FA00DB7820 /* What_I_Eat.app */;
+			productReference = D6D064172B4FD0FA00DB7820 /* WhatIEat.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -113,7 +113,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D6D064122B4FD0FA00DB7820 /* Build configuration list for PBXProject "What_I_Eat" */;
+			buildConfigurationList = D6D064122B4FD0FA00DB7820 /* Build configuration list for PBXProject "WhatIEat" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -126,7 +126,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D6D064162B4FD0FA00DB7820 /* What_I_Eat */,
+				D6D064162B4FD0FA00DB7820 /* WhatIEat */,
 			);
 		};
 /* End PBXProject section */
@@ -283,7 +283,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"What_I_Eat/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WhatIEat/Preview Content\"";
 				DEVELOPMENT_TEAM = APH7WMHZRK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -312,7 +312,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"What_I_Eat/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WhatIEat/Preview Content\"";
 				DEVELOPMENT_TEAM = APH7WMHZRK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -337,7 +337,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D6D064122B4FD0FA00DB7820 /* Build configuration list for PBXProject "What_I_Eat" */ = {
+		D6D064122B4FD0FA00DB7820 /* Build configuration list for PBXProject "WhatIEat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D6D064232B4FD0FB00DB7820 /* Debug */,
@@ -346,7 +346,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D6D064252B4FD0FB00DB7820 /* Build configuration list for PBXNativeTarget "What_I_Eat" */ = {
+		D6D064252B4FD0FB00DB7820 /* Build configuration list for PBXNativeTarget "WhatIEat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D6D064262B4FD0FB00DB7820 /* Debug */,

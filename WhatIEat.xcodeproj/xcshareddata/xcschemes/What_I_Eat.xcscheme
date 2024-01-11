@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D6D064162B4FD0FA00DB7820"
-               BuildableName = "What_I_Eat.app"
-               BlueprintName = "What_I_Eat"
-               ReferencedContainer = "container:What_I_Eat.xcodeproj">
+               BuildableName = "WhatIEat.app"
+               BlueprintName = "WhatIEat"
+               ReferencedContainer = "container:WhatIEat.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -44,9 +44,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D6D064162B4FD0FA00DB7820"
-            BuildableName = "What_I_Eat.app"
-            BlueprintName = "What_I_Eat"
-            ReferencedContainer = "container:What_I_Eat.xcodeproj">
+            BuildableName = "WhatIEat.app"
+            BlueprintName = "WhatIEat"
+            ReferencedContainer = "container:WhatIEat.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -61,9 +61,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D6D064162B4FD0FA00DB7820"
-            BuildableName = "What_I_Eat.app"
-            BlueprintName = "What_I_Eat"
-            ReferencedContainer = "container:What_I_Eat.xcodeproj">
+            BuildableName = "WhatIEat.app"
+            BlueprintName = "WhatIEat"
+            ReferencedContainer = "container:WhatIEat.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
