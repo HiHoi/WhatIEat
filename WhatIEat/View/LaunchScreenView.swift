@@ -10,12 +10,13 @@ import SwiftUI
 struct LaunchScreenView: View {
     var body: some View {
 		ZStack {
+			Color(.white)
+				.ignoresSafeArea()
 			Image("SplashImage")
 				.resizable()
 				.scaledToFit()
 				.zIndex(0)
 		}
-		.background(.white)
     }
 }
 

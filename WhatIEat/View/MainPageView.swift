@@ -19,17 +19,19 @@ enum ESituation: String {
 struct MainPageView: View {
 	var body: some View {
 		HStack {
-			TimeView()
+			TimeView(viewModel: RestaurantViewModel())
 		}
 	}
 }
 
 struct TimeView: View {
 	@State var currentTime = Date()
+	@State var currentSituation = ""
+	@State var currentImageIndex = 0
+	var viewModel: RestaurantViewModel
 	
 	let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
 	
-	@State var currentSituation = ""
 	
 	var body: some View {
 		VStack {
@@ -51,17 +53,59 @@ struct TimeView: View {
 				.font(.title2)
 			
 			Spacer()
-				.frame(height: 100)
+				.frame(height: 70)
 			
-			Image("example")
-				.resizable()
-				.scaledToFit()
+			VStack {
+				if let imagesUrl = viewModel.randomThumbnailPhoto {
+					ForEach(imagesUrl.indices, id: \.self) { index in
+						if index == currentImageIndex {
+							AsyncImage(url: URL(string: imagesUrl[index])) { phase in
+								switch phase {
+								case .empty:
+									Text("로딩 중...")
+								case .success(let image):
+									image
+										.resizable()
+										.scaledToFit()
+								case .failure:
+									Text("이미지 로딩 실패")
+								@unknown default:
+									fatalError()
+								}
+							}
+							.transition(.opacity)
+							.animation(.easeInOut(duration: 1.0), value: currentImageIndex)
+							.onAppear {
+								DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
+									withAnimation(.easeInOut(duration: 1.0)) {
+										currentImageIndex = (currentImageIndex + 1) % imagesUrl.count
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			.onAppear {
+				currentImageIndex = 0
+				viewModel.loadRandomPageData()
+				
+				// MARK: REFACTORY Async / Await
+//				Task {
+//					currentImageIndex = 0
+//					await viewModel.loadRandomImages()
+//				}
+			}
 			
 			Spacer()
-				
-			Button(action: {}) {
+			
+			Button(action: {
+				print("버튼 클릭")
+			}) {
 				Text("메뉴 추천 받기")
 			}
+			.buttonStyle(.borderedProminent)
+			.controlSize(.large)
 			
 			Spacer()
 				.frame(height: 50)
@@ -104,6 +148,15 @@ struct TimeView: View {
 			return ESituation.저녁.rawValue
 		default:
 			return ESituation.간식.rawValue
+		}
+	}
+}
+
+struct FoodImage : View {
+	
+	var body: some View {
+		ZStack {
+			
 		}
 	}
 }
