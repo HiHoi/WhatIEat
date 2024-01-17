@@ -16,7 +16,7 @@ struct LaunchScreenView: View {
 				.resizable()
 				.scaledToFit()
 				.zIndex(0)
-		}
+		} // MARK: - ZStack
     }
 }
 

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D6512DBD2B58083B00241FC4 /* IntroFoodsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6512DBC2B58083B00241FC4 /* IntroFoodsView.swift */; };
+		D6512DBF2B580A9D00241FC4 /* TimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6512DBE2B580A9D00241FC4 /* TimeView.swift */; };
+		D6512DC12B580CB200241FC4 /* RecommendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6512DC02B580CB200241FC4 /* RecommendView.swift */; };
 		D6B05CAD2B53DF1600BDB1B8 /* RestaurantViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B05CAC2B53DF1600BDB1B8 /* RestaurantViewModel.swift */; };
 		D6D0641B2B4FD0FA00DB7820 /* WhatIEat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D0641A2B4FD0FA00DB7820 /* WhatIEat.swift */; };
 		D6D0641F2B4FD0FB00DB7820 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6D0641E2B4FD0FB00DB7820 /* Assets.xcassets */; };
@@ -22,6 +25,9 @@
 		12ACE52386763E6DC0A5F56C /* Pods_WhatIEat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatIEat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		354A5D673786A90B9D1DFC85 /* Pods-WhatIEat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatIEat.release.xcconfig"; path = "Target Support Files/Pods-WhatIEat/Pods-WhatIEat.release.xcconfig"; sourceTree = "<group>"; };
 		7711F65797C2941D25A40C6D /* Pods-WhatIEat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatIEat.debug.xcconfig"; path = "Target Support Files/Pods-WhatIEat/Pods-WhatIEat.debug.xcconfig"; sourceTree = "<group>"; };
+		D6512DBC2B58083B00241FC4 /* IntroFoodsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroFoodsView.swift; sourceTree = "<group>"; };
+		D6512DBE2B580A9D00241FC4 /* TimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeView.swift; sourceTree = "<group>"; };
+		D6512DC02B580CB200241FC4 /* RecommendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendView.swift; sourceTree = "<group>"; };
 		D6B05CAC2B53DF1600BDB1B8 /* RestaurantViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewModel.swift; sourceTree = "<group>"; };
 		D6D064172B4FD0FA00DB7820 /* WhatIEat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatIEat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6D0641A2B4FD0FA00DB7820 /* WhatIEat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatIEat.swift; sourceTree = "<group>"; };
@@ -107,6 +113,9 @@
 			children = (
 				D6D0642D2B50053900DB7820 /* LaunchScreenView.swift */,
 				D6D0642F2B50058F00DB7820 /* MainPageView.swift */,
+				D6512DBC2B58083B00241FC4 /* IntroFoodsView.swift */,
+				D6512DBE2B580A9D00241FC4 /* TimeView.swift */,
+				D6512DC02B580CB200241FC4 /* RecommendView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -252,11 +261,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6D0641B2B4FD0FA00DB7820 /* WhatIEat.swift in Sources */,
+				D6512DC12B580CB200241FC4 /* RecommendView.swift in Sources */,
 				D6B05CAD2B53DF1600BDB1B8 /* RestaurantViewModel.swift in Sources */,
 				D6D0642E2B50053900DB7820 /* LaunchScreenView.swift in Sources */,
+				D6512DBF2B580A9D00241FC4 /* TimeView.swift in Sources */,
 				D6D064302B50058F00DB7820 /* MainPageView.swift in Sources */,
 				D6E4CBE92B515F1D00B611AA /* NetworkModel.swift in Sources */,
 				D6E4CBE62B515ABD00B611AA /* FoodModel.swift in Sources */,
+				D6512DBD2B58083B00241FC4 /* IntroFoodsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

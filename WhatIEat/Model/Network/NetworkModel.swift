@@ -9,6 +9,7 @@ import Foundation
 import Alamofire
 
 struct NetworkModel {
+	// MARK: 더 안전한 환경변수 관리?
 	static let shared = NetworkModel()
 	private let apiKey = Bundle.main.object(forInfoDictionaryKey: "API_KEY") as? String
 	private let apiUrl = "https://api.odcloud.kr/api/15097008/v1"
@@ -18,6 +19,7 @@ struct NetworkModel {
 	
 	init() {}
 	
+	// MARK: fetch all restaurant data
 	func getAllData() -> RestaurantModel? {
 		var returnValue: RestaurantModel?
 		AF.request("\(apiUrl)/uddi:\(apiUddi!)?page=\(pageNum)&perPage=\(perPageNum)&serviceKey=\(apiKey!.utf8)")
@@ -32,6 +34,7 @@ struct NetworkModel {
 		return returnValue
 	}
 	
+	// MARK: fetch random restaurant data
 	func getRandomPageData(completion: @escaping (RestaurantModel?) -> Void) {
 		let randomPageNumber = Int.random(in: 1..<100)
 		AF.request("\(apiUrl)/uddi:\(apiUddi!)?page=\(randomPageNumber)&perPage=\(perPageNum)&serviceKey=\(apiKey!.utf8)")
@@ -46,6 +49,7 @@ struct NetworkModel {
 			}
 	}
 	
+	//MARK: TODO - async 문법으로 리팩토링
 	func getRandomImageData() async -> RestaurantModel? {
 		let randomPageNumber = Int.random(in: 1..<100)
 		var resultValue: RestaurantModel?
