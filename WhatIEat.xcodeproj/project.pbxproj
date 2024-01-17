@@ -73,7 +73,6 @@
 		D6D0640E2B4FD0FA00DB7820 = {
 			isa = PBXGroup;
 			children = (
-				D6BB77202B583B790045CC83 /* .gitignore */,
 				D6D064192B4FD0FA00DB7820 /* WhatIEat */,
 				D6D064182B4FD0FA00DB7820 /* Products */,
 				DF3168F414AA068AA62E02B5 /* Pods */,
@@ -92,6 +91,7 @@
 		D6D064192B4FD0FA00DB7820 /* WhatIEat */ = {
 			isa = PBXGroup;
 			children = (
+				D6BB77202B583B790045CC83 /* .gitignore */,
 				D6B05CAB2B53DF0600BDB1B8 /* ViewModel */,
 				D6E4CBEA2B515FF300B611AA /* Info.plist */,
 				D6E4CBE42B515A8000B611AA /* Model */,
