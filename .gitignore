@@ -30,6 +30,7 @@ DerivedData/
 ## Obj-C/Swift specific
 *.hmap
 Info.plist
+*.plist
 
 ## App packaging
 *.ipa
