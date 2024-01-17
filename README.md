@@ -22,7 +22,7 @@
 
 ## 배운 점들
 
-[Notion](https://www.notion.so/hoslim/d3fae3758d9c46e497089b48b36a04da?pvs=4)
+[Notion]([https://www.notion.so/hoslim/d3fae3758d9c46e497089b48b36a04da?pvs=4](https://hoslim.notion.site/d3fae3758d9c46e497089b48b36a04da?pvs=4))
 
 ## 사용한 API
 
