@@ -24,6 +24,7 @@ struct IntroFoodsView: View {
 								image
 									.resizable()
 									.scaledToFit()
+									
 							case .failure:
 								Text("이미지 로딩 실패")
 							@unknown default:

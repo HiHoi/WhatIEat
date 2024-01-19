@@ -13,6 +13,8 @@ struct RecommendView: View {
 	var body: some View {
 		VStack {
 			Text("오늘 메뉴는?")
+				.font(.largeTitle)
+				.fontWeight(.bold)
 			if let recommend = viewModel.recommendFood {
 				AsyncImage(url: URL(string: recommend)) { phase in
 					switch phase {

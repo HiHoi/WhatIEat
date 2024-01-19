@@ -11,7 +11,6 @@
 		D6512DBF2B580A9D00241FC4 /* TimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6512DBE2B580A9D00241FC4 /* TimeView.swift */; };
 		D6512DC12B580CB200241FC4 /* RecommendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6512DC02B580CB200241FC4 /* RecommendView.swift */; };
 		D6B05CAD2B53DF1600BDB1B8 /* RestaurantViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B05CAC2B53DF1600BDB1B8 /* RestaurantViewModel.swift */; };
-		D6BB77212B583B790045CC83 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = D6BB77202B583B790045CC83 /* .gitignore */; };
 		D6D0641B2B4FD0FA00DB7820 /* WhatIEat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D0641A2B4FD0FA00DB7820 /* WhatIEat.swift */; };
 		D6D0641F2B4FD0FB00DB7820 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6D0641E2B4FD0FB00DB7820 /* Assets.xcassets */; };
 		D6D064222B4FD0FB00DB7820 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6D064212B4FD0FB00DB7820 /* Preview Assets.xcassets */; };
@@ -30,7 +29,6 @@
 		D6512DBE2B580A9D00241FC4 /* TimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeView.swift; sourceTree = "<group>"; };
 		D6512DC02B580CB200241FC4 /* RecommendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendView.swift; sourceTree = "<group>"; };
 		D6B05CAC2B53DF1600BDB1B8 /* RestaurantViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewModel.swift; sourceTree = "<group>"; };
-		D6BB77202B583B790045CC83 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		D6D064172B4FD0FA00DB7820 /* WhatIEat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatIEat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6D0641A2B4FD0FA00DB7820 /* WhatIEat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatIEat.swift; sourceTree = "<group>"; };
 		D6D0641E2B4FD0FB00DB7820 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -91,7 +89,6 @@
 		D6D064192B4FD0FA00DB7820 /* WhatIEat */ = {
 			isa = PBXGroup;
 			children = (
-				D6BB77202B583B790045CC83 /* .gitignore */,
 				D6B05CAB2B53DF0600BDB1B8 /* ViewModel */,
 				D6E4CBEA2B515FF300B611AA /* Info.plist */,
 				D6E4CBE42B515A8000B611AA /* Model */,
@@ -210,7 +207,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6D064222B4FD0FB00DB7820 /* Preview Assets.xcassets in Resources */,
-				D6BB77212B583B790045CC83 /* .gitignore in Resources */,
 				D6D0641F2B4FD0FB00DB7820 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

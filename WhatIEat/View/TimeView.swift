@@ -18,20 +18,21 @@ struct TimeView: View {
 		VStack {
 			HStack {
 				Text("지금 현재 시각은")
-					.font(.title2)
+					.font(.title)
 			}
 			Text(dateFormatted)
-				.font(.largeTitle)
+				.font(.title2)
 			
 			// 시간, 분, 초를 표시
 			Text(timeFormatted)
-				.font(.title)
+				.font(.largeTitle)
 			
 			Spacer()
 				.frame(height: 40)
 			
 			Text("지금은 " + setSituation + " 먹을 시간!!")
 				.font(.title2)
+				.fontWeight(.bold)
 			
 			
 			
@@ -46,7 +47,7 @@ struct TimeView: View {
 	
 	var dateFormatted: String {
 		let formatter = DateFormatter()
-		formatter.dateFormat = "MMMM dd"
+		formatter.dateFormat = "M월 dd일"
 		return formatter.string(from: currentTime)
 	}
 	
